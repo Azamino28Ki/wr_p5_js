@@ -1,0 +1,22 @@
+{
+  "name": "p5_js_wr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azamino28Ki/wr_p5_js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azamino28Ki/wr_p5_js/issues"
+  },
+  "homepage": "https://github.com/Azamino28Ki/wr_p5_js#readme",
+  "dependencies": {
+    "p5": "^1.4.1"
+  }
+}

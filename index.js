@@ -1,3 +1,4 @@
+var p5 = require('p5');
 class AjustSizeParentP5 extends p5 {
     constructor(...args){
       super(...args);
