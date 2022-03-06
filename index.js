@@ -1,5 +1,5 @@
-var p5 = require('p5');
-class AjustSizeParentP5 extends p5 {
+import p5 from 'p5';
+export class AjustSizeParentP5 extends p5 {
     constructor(...args){
       super(...args);
     };

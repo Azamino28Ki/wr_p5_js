@@ -18,5 +18,9 @@
   "homepage": "https://github.com/Azamino28Ki/wr_p5_js#readme",
   "dependencies": {
     "p5": "^1.4.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
   }
 }
