@@ -1,13 +1,17 @@
-const path = require('path');
+import path from "node:path";
+ import url from "node:url";
+ 
+ const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 
-module.exports = {
+export default {
   mode: 'production',
-  entry: './index.js',
+  entry: './index',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'public/js'),
-    library: 'AjustSizeParentP5',
-    libraryTarget: 'umd',
-    globalObject: 'this',
-  }
+    libraryTarget: 'module',
+  },
+  experiments: {
+    outputModule: true,
+  },
 }

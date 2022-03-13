@@ -1,5 +1,5 @@
 import p5 from 'p5';
-export default class AjustSizeParentP5 extends p5 {
+export default class extends p5 {
     constructor(...args){
       super(...args);
     };
